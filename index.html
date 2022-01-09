@@ -4,49 +4,83 @@
 <head>
   <meta charset="utf-8">
   <title>Webpage bla bla</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+  <link href="css/main.css" rel="stylesheet">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <meta content="" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+
+  <meta content="" property="og:title">
+  <meta content="" property="og:type">
+  <meta content="" property="og:url">
+  <meta content="" property="og:image">
+
+  <link href="site.webmanifest" rel="manifest">
+  <link href="icon.png" rel="apple-touch-icon">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
 
-  <meta name="theme-color" content="#fafafa">
+  <meta content="#fafafa" name="theme-color">
 </head>
 
 <body>
+<div class="container">
+  <header>
+    <div>
+    <span class="logo-content">
+      <a class="main-logo" href="#">Oleg's</a>
+      <span class="page-title">Web page</span>
+    </span>
+    </div>
+  </header>
+  <section>
+    <div class="content">
+      <h1>Welcome</h1>
+      <div><i><strong>in this wedsite you will find</strong></i>
+        <div>
 
-  <h1>Welcome</h1>
-  <h4><i><strong>in this wedsite you will find</strong></i><h4>
+          <ul>
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+          </ul>
 
-  <ul>
-    <li>list item 1</li>
-    <li>list item 2</li>
-    <li>list item 3</li>
-  </ul>
+          <hr>
 
-  <hr>
+          <p>Hello world! This is HTML5 Boilerplate. <a href="https://my.codakid.com/topic/the-legend-of-links/">
+            Codakid </a></p>
+          <img alt="tank" src="img/Tank_KodaKid.png">
+          <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+          <script src="js/plugins.js"></script>
+          <script src="js/main.js"></script>
 
-  <p>Hello world! This is HTML5 Boilerplate. <a href="https://my.codakid.com/topic/the-legend-of-links/" > Codakid </a href></p>
-    <img src="img/Tank_KodaKid.png" alt="tank">
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+          <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+          <script>
+            window.ga = function () {
+              ga.q.push(arguments)
+            };
+            ga.q = [];
+            ga.l = +new Date;
+            ga('create', 'UA-XXXXX-Y', 'auto');
+            ga('set', 'anonymizeIp', true);
+            ga('set', 'transport', 'beacon');
+            ga('send', 'pageview')
+          </script>
+          <script async src="https://www.google-analytics.com/analytics.js"></script>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div>
+      <a class="codakid-icon" target="blank_" href="https://my.codakid.com/">CodaKid</a>
+      <a class="youtube-icon" target="blank_" href="https://www.youtube.com/">Youtube</a>
+      <a class="discord-icon" target="blank_" href="https://discord.com/">Discord</a>
+    </div>
+  </footer>
+</div>
 </body>
 
 </html>
