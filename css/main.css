@@ -73,6 +73,37 @@ section {
   padding-top: 50px;
 }
 
+nav {
+  left: 25px;
+  position: relative;
+  top: 10px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+nav a {
+  color: black;
+  font-family: 'arial black', arial, sans-serif;
+  padding: 0.5vh;
+  text-decoration: none;
+
+  /*background-color: #facf0c;*/
+}
+
+.nav-Home {background-color: #ff0f0f; color: #00006c}
+.nav-Guide {background-color: #f0f000}
+.nav-Units {background-color: #00ff00}
+.nav-Secret-units {background-color: #105d9c; color: #3b0000}
+
+.nav-Home:hover {background-color: #3b0000; color: white}
+.nav-Guide:hover {background-color: #b0a000; color: white}
+.nav-Units:hover {background-color: #002f00; color: white}
+.nav-Secret-units:hover {background-color: #00009c; color: white}
+
+nav a {
+  transition: background-color 0.5s ease;
+}
+
 .content {
   background-color: rgba(232, 233, 235, 0.1);
 
